@@ -1,13 +1,22 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
     </head>
     <body>
-        <p>
+        <p id="hello">
             hello
         </p>
-        <div id="game">
-
+        <p id="bye">
+            bye
+        </p>
+        <div id="game" onclick="document.getElementById('hello').innerHTML='one'">
+            <unit class="infantry" onclick="document.getElementById('bye').innerHTML='two'">
+                <img src="stick.jpg" style="width:100px;height:100px;">
+            </unit>
+            <unit onclick="select(document.getElementById('zero'))">
+                <img id="zero" src="paint.png">
+            </unit>
         </div>
     </body>
 </html>
