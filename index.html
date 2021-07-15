@@ -5,7 +5,7 @@
     </head>
     <body>
         <div class="header">
-
+            <img class="logo" src="logo.png">
         </div>
         <div class="navigation">
 
@@ -24,11 +24,8 @@
                     </div>
                 </div>
                 <div id="game">
-                    <unit class="infantry">
-                        <img src="stick.jpg" style="width:100px;height:100px;">
-                    </unit>
-                    <unit onclick="select(document.getElementById('zero'))">
-                        <img id="zero" src="paint.png">
+                    <unit onclick="select(document.getElementById('zero'), document.getElementById('statusAlly'))">
+                        <img id="zero" src="pictures/units/green/infantry.png">
                     </unit>
                 </div>
             </div>

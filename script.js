@@ -13,19 +13,22 @@ function click(){
     return 4;
 }
 
-function select(id){
+function select(unit, status){
     if (selected == null){
-        selected = id;
-        id.style.outline = "4px solid green";
+        selected = unit;
+        unit.style.outline = "4px solid green";
+        status.style.display = "block";
     }
     else{
         selected = null;
-        id.style.outline = "none"
+        unit.style.outline = "none"
+        status.style.display = "none"
     }
 }
 
 class Unit {
-    constructor(name){
+    constructor(name, master){
+        this.master = master
         this.name = name;
         this.hp = 100;
         this.attack = units.get(name).get(attack)
