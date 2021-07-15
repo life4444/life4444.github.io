@@ -1,8 +1,8 @@
 var selected = null;
 
 const infantry = new Map([
-    [attack, 10],
-    [defense, 10]
+    ["attack", 10],
+    ["defense", 10]
 ]);
 
 const units = new Map([
@@ -31,8 +31,8 @@ class Unit {
         this.master = master
         this.name = name;
         this.hp = 100;
-        this.attack = units.get(name).get(attack)
-        this.defense = units.get(name).get(defense)
+        this.attack = units.get(name).get("attack")
+        this.defense = units.get(name).get("defense")
     }
     showStats(block){
         
