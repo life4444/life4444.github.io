@@ -57,32 +57,3 @@ body {
     height: 160px;
     background-color: pink;
 }
-
-#game{
-    width: 400px;
-    height: 200px;
-    border: 1px solid black;
-}
-
-#status{
-    width: 420px;
-    height: 110px;
-    margin: 10px;
-    border: 1px solid black;
-}
-
-#statusAlly{
-    float: left;
-    display: none;
-    width: 200px;
-    height: 100px;
-    border: 2px solid green;
-}
-
-#statusEnemy{
-    float: left;
-    display: none;
-    width: 200px;
-    height: 100px;
-    border: 2px solid red;
-}
