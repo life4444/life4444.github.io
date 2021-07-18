@@ -3,7 +3,7 @@ body {
 }
 
 .logo{
-    margin: 10px;
+    padding: 10px;
 }
 
 .header{
@@ -11,25 +11,9 @@ body {
     background-color: lightblue;
 }
 
-.accountHeader{
-    float: right;
-}
-
 .navigation{
-    overflow: hidden;
+    height: 40px;
     background-color: lightgreen;
-}
-
-.navigationItem{
-    float: left;
-    color: black;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.navigationItem:hover{
-    background-color: chocolate;
 }
 
 .body{
